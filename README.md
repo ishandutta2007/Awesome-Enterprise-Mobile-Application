@@ -1,217 +1,146 @@
-# Awesome-Enterprise-Mobile-Application
+# 📱 Awesome Enterprise Mobile Application 🚀
 
-## Top Enterprise Mobile Application Ecosystem
+<div align="center">
 
+<img src="./assets/banner.svg" alt="Awesome Enterprise Mobile Application Banner" width="100%">
 
+<br/>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Mobile-Application/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Enterprise-Mobile-Application)
 
-*Focused on Mobile App Development, Device Management & Enterprise Mobility*  
+**A comprehensive, curated directory of enterprise mobile platforms, Unified Endpoint Management (UEM), Mobile Device Management (MDM), low-code development studios, and open-source mobile backends.**
 
-**Last updated: October 2026**
+*Explore leading enterprise SaaS ecosystems alongside sovereign, self-hosted open-source alternatives for modern enterprise mobility.*
 
+**Last updated: October 2026** 📅
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Mobile Applications**. These tools enable organizations to build, deploy, secure, and manage mobile applications and devices across their workforce—covering the full spectrum from low-code app development and backend services to mobile device management (MDM) and unified endpoint management (UEM).
-
-
-
-**Examples** include Workday Mobile, Microsoft Intune, VMware Workspace ONE, ServiceNow Mobile Agent, SAP Mobile Services, Salesforce Mobile, Ivanti Neurons for UEM, Jamf Pro, ManageEngine Endpoint Central, and Citrix Workspace (the category leaders).
-
-
-
-**Open-source emphasis**: Enterprise Mobility is a domain where open-source tooling is **fragmented across distinct sub-categories**. **Convertigo** provides a mature low-code platform for building cross-platform enterprise mobile apps . **Parse Server** and **Appwrite** provide self-hosted Backend-as-a-Service foundations for mobile apps . For device management, **Cairn-MDM** offers a single-binary Apple MDM server for macOS/iOS , while **MDMesh** provides a modern self-hosted Android MDM with kiosk and app delivery . No single open-source platform matches the full UEM capability of Microsoft Intune or VMware Workspace ONE across all device types.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Workday Mobile](https://www.workday.com/)**  
-
-  Mobile access to Workday's HCM and financial management suite, enabling employees to view payslips, request time off, approve transactions, and access workforce data on iOS and Android.
-
-
-
-- **[Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/)**  
-
-  Comprehensive endpoint management for Windows, Apple, Android, and Linux devices; provides MDM, MAM, configuration profiles, compliance enforcement, conditional access, and Copilot-powered AI agents for device troubleshooting.
-
-
-
-- **[VMware Workspace ONE (Omnissa)](https://www.omnissa.com/)**  
-
-  Unified endpoint management platform ranked a Leader in the 2026 Gartner Magic Quadrant; supports Windows, macOS, iOS, Android, ChromeOS, Linux, and rugged devices with zero-touch onboarding and automated app lifecycle.
-
-
-
-- **[ServiceNow Mobile Agent](https://www.servicenow.com/)**  
-
-  Mobile-first app for service desk agents to triage and resolve requests on the go, with offline work, native device capabilities, and out-of-the-box workflows for IT, CSM, HR, and Field Services.
-
-
-
-- **[SAP Mobile Services](https://www.sap.com/)**  
-
-  Mobile app development and management platform within SAP's ecosystem, enabling enterprise mobile app deployment and secure connectivity to SAP systems.
-
-
-
-- **[Salesforce Mobile](https://www.salesforce.com/)**  
-
-  Mobile access to Salesforce CRM with offline capabilities, push notifications, and mobile-optimized workflows for sales and service teams.
-
-
-
-- **[Ivanti Neurons for UEM](https://www.ivanti.com/)**  
-
-  Unified endpoint management with mobile threat defense, Apple Declarative Device Management, Android Enterprise workflows, and tiered packaging covering secure email, MAM, and SSO.
-
-
-
-- **[Jamf Pro](https://www.jamf.com/)**  
-
-  Apple-focused enterprise mobility management with zero-touch deployment for iPad, iPhone, Mac, and Apple TV; trusted by 76,600+ organizations for native OS management and self-service app catalog.
-
-
-
-- **[ManageEngine Endpoint Central](https://www.manageengine.com/)**  
-
-  Unified endpoint management with MDM for Android and Apple devices, kiosk mode, geo-fencing, remote lock/wipe, and OS update management.
-
-
-
-- **[Citrix Workspace](https://www.citrix.com/)**  
-
-  Endpoint management with MDM+MAM capabilities, micro-VPN via NetScaler Gateway, and integration with Citrix Virtual Apps and Desktops for secure mobile access to enterprise resources.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Low-Code Mobile App Development
-
-
-
-- **[Convertigo](https://github.com/convertigo/convertigo)**  
-
-  Mature open-source AI-driven low-code and no-code platform (AGPL-3.0) for building complex cross-platform enterprise mobile and web apps; includes Convertigo Server (backend with offline data synchronization), Eclipse-based Studio for full-stack development, and No Code Studio for citizen developers; Docker/Helm deployment; used by 150K+ developers worldwide . **The most complete open-source platform for building enterprise mobile apps** with backend integration and offline capabilities.
-
-
-
-- **[Joget DX](https://github.com/jogetworkflow/jw-community)**  
-
-  Open-source no-code/low-code application platform (GPL-3.0) combining rapid application development, business process automation, and workflow management; apps built are **mobile ready and cloud ready**, with Progressive Web App (PWA) support including offline support and push notifications via configuration . **Strong for workflow-driven enterprise mobile apps** with visual development and BPM capabilities.
-
-
-
-### Backend-as-a-Service for Mobile Apps
-
-
-
-- **[Parse Server](https://github.com/parse-community/parse-server)**  
-
-  Open-source Backend-as-a-Service (Apache 2.0) built on Node.js; provides auto-generated REST/GraphQL APIs, user authentication with social login and MFA, file storage, push notifications, Cloud Code for server-side logic, and **LiveQuery for real-time data sync** . Originally created by Facebook, now community-maintained with 21K+ GitHub stars; compatible with MongoDB and PostgreSQL. **The most mature open-source BaaS for mobile apps** requiring self-hosted backend infrastructure .
-
-
-
-- **[Appwrite](https://github.com/appwrite/appwrite)**  
-
-  Open-source end-to-end backend server for frontend and mobile apps (BSD-3-Clause, 48K+ GitHub stars); provides authentication, databases, storage, functions, and real-time capabilities; Docker-deployable with SDKs for Android, iOS, Flutter, and React Native . **Modern alternative to Parse Server** with a more contemporary developer experience.
-
-
-
-### Mobile Device Management (MDM)
-
-
-
-- **[Cairn-MDM](https://github.com/nickpdawson/Cairn-MDM)**  
-
-  Single-binary, open-source Apple MDM server (MIT, v0.1.1 public beta) for macOS and iOS/iPadOS devices; embeds MDM protocol server (NanoMDM), SCEP certificate authority, and admin UI in one Go binary with SQLite database; supports over-the-air enrollment, configuration profile delivery, and Apple HIG-inspired web console; **no Apple Business Manager account required** for the non-ABM path . **The simplest self-hosted Apple MDM option** for homelabs, small businesses, and non-profits; pre-1.0 with DDM and ABM/ADE on the roadmap.
-
-
-
-- **[MDMesh](https://github.com/MDMesh-app/MDMesh)**  
-
-  Modern self-hosted **Android MDM** (fork of Headwind MDM, being rebuilt as distinct product); features QR-code Device-Owner enrollment, kiosk/COSU mode with crash-loop guard and exit PIN, app delivery (APK upload, F-Droid catalog, silent install), location tracking, remote actions, and **signed auto-updates with rollback**; console built with React/TypeScript; server uses Java/PostgreSQL . **The most feature-complete open-source Android MDM** with modern console and no paywalled "enterprise edition."
-
-
-
-- **[MicroMDM](https://github.com/micromdm/micromdm)**  
-
-  Open-source Apple MDM server (Go, 2,500+ GitHub stars); the upstream project from which Cairn-MDM builds; provides the core MDM protocol implementation for teams wanting to build custom Apple device management workflows .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Vibra Code** — Open-source AI mobile app builder (AGPL-3.0) that generates Expo React Native apps from natural language descriptions; self-hostable with Claude/Cursor/Gemini support and E2B sandboxes . **Novel AI-assisted development** rather than traditional enterprise platform.
-
-- **Monkshu** — Open-source JavaScript enterprise application server for mobile apps (iOS/Android), PWAs, and responsive web apps; includes web container, JSON API container, and hybrid app frameworks with minimal dependencies . **Application server infrastructure** rather than a complete mobile platform.
-
-
-
-**Frameworks for building custom systems**: Combine **Convertigo** or **Joget DX** for low-code enterprise mobile app development with backend integration, **Parse Server** or **Appwrite** for self-hosted Backend-as-a-Service, and **Cairn-MDM** (Apple) or **MDMesh** (Android) for device management in a sovereign enterprise mobility stack. Note that no single open-source platform spans both app development and cross-platform device management like Microsoft Intune or VMware Workspace ONE.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Enterprise mobile platforms handling device and user data must comply with applicable privacy regulations (GDPR, CCPA) and organizational security policies; MDM enrollment grants significant device control requiring careful consent and data governance.
-
-- **Open-source enterprise mobility is fragmented across sub-categories**—Convertigo and Joget provide app development, Parse Server and Appwrite provide backend services, Cairn-MDM and MDMesh provide device management. No single open-source platform matches Microsoft Intune or VMware Workspace ONE for unified cross-platform UEM. Cairn-MDM is Apple-only and pre-1.0 ; MDMesh is Android-only and in active rebuild .
-
-- Verify license terms for commercial use; Convertigo uses AGPL-3.0 , Joget uses GPL-3.0 , Parse Server uses Apache 2.0 , Appwrite uses BSD-3-Clause , Cairn-MDM uses MIT , and MDMesh is open-source .
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS Products & Category Leaders](#-saas-products--category-leaders)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⚡ Low-Code & Citizen App Builders](#-low-code--citizen-app-builders)
+  - [🗄️ Backend-as-a-Service (BaaS) for Mobile](#️-backend-as-a-service-baas-for-mobile)
+  - [🛡️ Mobile Device Management (MDM & UEM)](#️-mobile-device-management-mdm--uem)
+  - [💬 Enterprise Mobile Collaboration](#-enterprise-mobile-collaboration)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & License Notes](#️-disclaimer--license-notes)
 
-**Made for enterprise mobility architects, mobile developers, IT administrators, and device management engineers.**  
+---
 
-Let's make enterprise mobile applications more open, manageable, and worker-empowering.
+## 📊 Sector Overview & Market Dynamics
+
+The global **Unified Endpoint Management (UEM)** and **Enterprise Mobility Management (EMM)** market is estimated at **$8.6 Billion to $10.5 Billion in 2026**, projected to surge past **$34 Billion to $57 Billion by the early 2030s** at an aggressive compound annual growth rate (**CAGR of 21.8% – 23.7%**). 
+
+The market dynamics exhibit a **concentrated, oligopolistic top tier** led by mega-cap cloud hyperscalers and platform titans (notably Microsoft Intune and Omnissa / VMware Workspace ONE) capturing core Fortune 500 fleets via bundled workplace suites, while maintaining **moderate fragmentation across specialized vectors** such as dedicated Apple ecosystem management (Jamf), rapid mobile low-code application development (Salesforce, SAP, Joget), and sovereign, privacy-preserving open-source Android/Apple MDM protocols.
+
+---
+
+## 🏢 SaaS Products & Category Leaders
+
+The following table evaluates top commercial enterprise mobility platforms, unified endpoint managers (UEM/MDM), and workforce mobile suites. Companies are ranked in **descending order by company scale (market capitalization or private enterprise valuation)**.
+
+| 🏢 Platform | 🏷️ Primary Category | 💰 Pricing (Starting Tier) | 🎁 Free Tier Limit / Free Trial Limit | 📈 Company Scale (Valuation / Market Cap / ARR) | 🌐 Official Link |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Intune** | Unified Endpoint Management (UEM / MDM) | **$8.00 / user / month** (Intune Plan 1 standalone; included in M365 Business Premium / E3 / E5) | **30-day free trial** with up to 100 user/device licenses; no permanent free tier | **~$3.1 Trillion** (Microsoft Market Cap) | [Visit Site](https://learn.microsoft.com/en-us/mem/intune/) |
+| **SAP Mobile Services** | Enterprise Mobile App Platform & SDKs | **$343.00 / month** base service block (Pay-As-You-Go on SAP BTP; volume tiers apply) | **Free Tier forever** (SAP BTP Free Plan: up to 3 apps, 10 user registrations/app, 5 destinations) or **90-day BTP Trial** (Lite plan: 10 apps, 3 users/app) | **~$260 Billion** (SAP Market Cap) | [Visit Site](https://www.sap.com/) |
+| **Salesforce Mobile** | Mobile CRM & Workforce Workflow | **$25.00 / user / month** (Sales Cloud Starter Suite; mobile app included free for all active subscribers) | **30-day free trial** of Sales Cloud / Enterprise suite (capped at 5–10 evaluation users); no permanent free tier | **~$250 Billion** (Salesforce Market Cap) | [Visit Site](https://www.salesforce.com/) |
+| **ServiceNow Mobile Agent** | Mobile IT & Enterprise Service Management | **~$70.00 / fulfiller / month** (ITSM Foundation entry tier, billed annually) | **No production free trial**; free Personal Developer Instances (PDIs) available for sandboxed non-commercial training only | **~$185 Billion** (ServiceNow Market Cap) | [Visit Site](https://www.servicenow.com/) |
+| **Workday Mobile** | Mobile Human Capital Management (HCM) | **~$8.00 – $42.00 / employee / month** (Workday HCM base package; typical annual enterprise minimums apply) | **No free trial for Workday HCM** (guided PoC demos only); **30-day free trial** available specifically for Workday Adaptive Planning | **~$65 Billion** (Workday Market Cap) | [Visit Site](https://www.workday.com/) |
+| **Citrix Workspace** | Secure Mobile Digital Workspace & CEM | **~$13.00 – $23.00 / user / month** (Citrix DaaS / Workspace Universal Hybrid Multi-Cloud tier) | **Sales-managed PoC / evaluation** (typically 30–60 days, capped to designated evaluation test users); no public self-service free tier | **$16.5 Billion** (Cloud Software Group acquisition valuation; ~$3.5B ARR) | [Visit Site](https://www.citrix.com/) |
+| **ManageEngine Endpoint Central** | Unified Endpoint Management & MDM | **$795.00 / year** (Professional Edition starting block covering up to 50 endpoints; ~$1.32/device/mo) | **Free Forever Edition** for up to **25 endpoints** (desktops/mobiles) and 1 technician; **30-day free trial** of full UEM Enterprise Edition | **$12.5 Billion** (Zoho Corporation estimated private valuation; ~$1.5B ARR) | [Visit Site](https://www.manageengine.com/) |
+| **VMware Workspace ONE (Omnissa)** | Unified Endpoint Management (UEM) | **$3.00 / device / month** (Mobile Essentials tier) or **$5.25 / device / month** (UEM Essentials) | **30-day free trial** supporting up to **100 devices** and full admin console capabilities; no permanent free tier | **$4.0 Billion** (Acquired by KKR; $1.5 Billion Annual Recurring Revenue) | [Visit Site](https://www.omnissa.com/) |
+| **Jamf Pro** | Apple Device Management (iOS, iPadOS, macOS) | **$5.75 / device / month** (Jamf for Mobile iOS/iPadOS; or $4.00/device/mo on Jamf Now) | **14 to 30-day free trial** without credit card requirement; Jamf Now offers first **3 devices managed free forever** | **$2.2 Billion** (Acquired by Francisco Partners; previously NASDAQ: JAMF) | [Visit Site](https://www.jamf.com/) |
+| **Ivanti Neurons for UEM** | Unified Endpoint Management & Security | **~$7.50 / device / month** (~$90/device/year baseline enterprise quotation) | **Sales-guided Proof of Concept (PoC)** / 30-day scoped test environment; no self-service free tier | **~$1.25 Billion** (Clearlake Capital / TA Associates transaction valuation; ~$778M ARR) | [Visit Site](https://www.ivanti.com/) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source enterprise mobility tooling provides sovereign control, on-premises isolation, and cost-effective flexibility across mobile app development, self-hosted backends, and device enrollment.
+
+Below is the curated list of top open-source projects, equipped with social badges linked directly to stargazers, ranked in **descending order by GitHub star count**.
+
+| 📦 Repository & Project | ⭐ GitHub Stars | ⚖️ License | 🛠️ Core Focus & Description |
+| :--- | :--- | :--- | :--- |
+| **[Supabase](https://github.com/supabase/supabase)** | [![Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers) | Apache-2.0 | High-performance open-source Firebase alternative providing auto-generated REST/GraphQL APIs, Postgres database, real-time sync, Auth, and Storage for iOS/Android enterprise applications. |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Open-source smart spreadsheet and no-code database turning relational databases (Postgres, MySQL) into mobile-friendly business apps with instant REST/GraphQL APIs. |
+| **[Appwrite](https://github.com/appwrite/appwrite)** | [![Stars](https://img.shields.io/github/stars/appwrite/appwrite?style=social&color=white)](https://github.com/appwrite/appwrite/stargazers) | BSD-3-Clause | Modern self-hosted Backend-as-a-Service (BaaS) providing secure authentication, databases, cloud functions, and real-time WebSockets with native iOS, Android, Flutter, and React Native SDKs. |
+| **[Appsmith](https://github.com/appsmithorg/appsmith)** | [![Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers) | Apache-2.0 | Low-code open-source internal application platform for building custom enterprise workflows, dashboards, and mobile-responsive inspection tools connecting to any database or API. |
+| **[Budibase](https://github.com/Budibase/budibase)** | [![Stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers) | GPL-3.0 | Modern low-code platform for creating internal tools, customer portals, and mobile-optimized workforce applications with built-in role-based access control and automation. |
+| **[Parse Server](https://github.com/parse-community/parse-server)** | [![Stars](https://img.shields.io/github/stars/parse-community/parse-server?style=social&color=white)](https://github.com/parse-community/parse-server/stargazers) | Apache-2.0 | Mature, battle-tested open-source Backend-as-a-Service (BaaS) featuring LiveQuery real-time updates, background cloud functions, push notifications, and extensive mobile client SDKs. |
+| **[Mattermost Mobile](https://github.com/mattermost/mattermost-mobile)** | [![Stars](https://img.shields.io/github/stars/mattermost/mattermost-mobile?style=social&color=white)](https://github.com/mattermost/mattermost-mobile/stargazers) | Apache-2.0 | Official React Native mobile application for Mattermost, delivering secure, air-gapped, self-hosted enterprise team messaging with MDM/EMM push proxy support. |
+| **[MicroMDM](https://github.com/micromdm/micromdm)** | [![Stars](https://img.shields.io/github/stars/micromdm/micromdm?style=social&color=white)](https://github.com/micromdm/micromdm/stargazers) | MIT | Scalable Apple Mobile Device Management protocol server written in Go; handles Apple push notification services (APNs), device profiles, and device command pipelines. |
+| **[Joget DX](https://github.com/jogetworkflow/jw-community)** | [![Stars](https://img.shields.io/github/stars/jogetworkflow/jw-community?style=social&color=white)](https://github.com/jogetworkflow/jw-community/stargazers) | GPL-3.0 | Enterprise no-code/low-code application development platform uniting visual workflow management, Progressive Web App (PWA) generation, offline mobile caching, and push notifications. |
+| **[Convertigo](https://github.com/convertigo/convertigo)** | [![Stars](https://img.shields.io/github/stars/convertigo/convertigo?style=social&color=white)](https://github.com/convertigo/convertigo/stargazers) | AGPL-3.0 | Complete open-source low-code mobile platform featuring offline FullSync data engines, visual studio, microservice orchestration, and cross-platform iOS/Android deployment. |
+| **[Flyve MDM Android Agent](https://github.com/flyve-mdm/android-mdm-agent)** | [![Stars](https://img.shields.io/github/stars/flyve-mdm/android-mdm-agent?style=social&color=white)](https://github.com/flyve-mdm/android-mdm-agent/stargazers) | GPL-3.0 | Open-source mobile device management agent for Android; connects to GLPI inventory management to monitor hardware state, enforce policies, and deploy software over the air. |
+| **[Headwind MDM Docker](https://github.com/h-mdm/hmdm-docker)** | [![Stars](https://img.shields.io/github/stars/h-mdm/hmdm-docker?style=social&color=white)](https://github.com/h-mdm/hmdm-docker/stargazers) | Apache-2.0 | Containerized distribution for Headwind MDM, an open-source Android MDM platform featuring kiosk/COSU mode, QR-code enrollment, and remote application updates. |
+| **[MDMesh](https://github.com/MDMesh-app/MDMesh)** | [![Stars](https://img.shields.io/github/stars/MDMesh-app/MDMesh?style=social&color=white)](https://github.com/MDMesh-app/MDMesh/stargazers) | GPL-3.0 | Modern self-hosted Android MDM system built with React/TypeScript and Java/PostgreSQL; supports QR-code Device Owner enrollment, APK delivery, and kiosk lock-down. |
+| **[Cairn-MDM](https://github.com/nickpdawson/Cairn-MDM)** | [![Stars](https://img.shields.io/github/stars/nickpdawson/Cairn-MDM?style=social&color=white)](https://github.com/nickpdawson/Cairn-MDM/stargazers) | MIT | Single-binary Apple MDM server for macOS and iOS/iPadOS; integrates NanoMDM protocol, SCEP certificate authority, and admin web UI with zero external runtime dependencies. |
+
+---
+
+### ⚡ Low-Code & Citizen App Builders
+
+- 🏗️ **[Convertigo](https://github.com/convertigo/convertigo)** — Mature enterprise platform (AGPL-3.0) for cross-platform iOS and Android mobile apps with built-in FullSync offline database synchronization.
+- 🔄 **[Joget DX](https://github.com/jogetworkflow/jw-community)** — Business process automation and low-code platform (GPL-3.0) with native Progressive Web App (PWA) support, push notifications, and offline data capture.
+- 📱 **[Appsmith](https://github.com/appsmithorg/appsmith)** — Visual app designer for enterprise dashboards and responsive workforce utilities.
+- 🧩 **[Budibase](https://github.com/Budibase/budibase)** — Fast internal app builder with automated CRUD, external SQL/NoSQL connectors, and mobile layouts.
+
+### 🗄️ Backend-as-a-Service (BaaS) for Mobile
+
+- ⚡ **[Supabase](https://github.com/supabase/supabase)** — Scalable open-source Firebase alternative built on PostgreSQL; includes row-level security (RLS), instant REST/GraphQL APIs, real-time broadcasts, and Auth.
+- 🚀 **[Appwrite](https://github.com/appwrite/appwrite)** — Modular self-hosted BaaS engine providing user management, cloud storage, serverless functions, and native mobile client SDKs.
+- 🔄 **[Parse Server](https://github.com/parse-community/parse-server)** — Node.js backend providing LiveQuery subscriptions, automated schemas, and multi-platform client adapters.
+- 📊 **[NocoDB](https://github.com/nocodb/nocodb)** — Smart no-code database converting legacy relational data stores into mobile-accessible API services.
+
+### 🛡️ Mobile Device Management (MDM & UEM)
+
+- 🍎 **[MicroMDM](https://github.com/micromdm/micromdm)** — Go-based Apple MDM protocol server implementation for macOS and iOS enterprise fleets.
+- 🍏 **[Cairn-MDM](https://github.com/nickpdawson/Cairn-MDM)** — Lightweight single-binary Apple MDM server with built-in SCEP and web administration.
+- 🤖 **[MDMesh](https://github.com/MDMesh-app/MDMesh)** — Clean React and Java-powered Android MDM with QR device-owner provisioning and APK catalog management.
+- 🔒 **[Headwind MDM](https://github.com/h-mdm/hmdm-docker)** — Dedicated Android kiosk and enterprise device management platform.
+- 📡 **[Flyve MDM Android Agent](https://github.com/flyve-mdm/android-mdm-agent)** — GLPI-integrated mobile telemetry and configuration management agent.
+
+### 💬 Enterprise Mobile Collaboration
+
+- 💬 **[Mattermost Mobile](https://github.com/mattermost/mattermost-mobile)** — Secure, on-premises workforce chat app with end-to-end encryption, MDM compliance, and deep operational integration.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions, corrections, and additions! ✨
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🌿 **Create a branch** for your updates (`git checkout -b feat/add-new-mobile-platform`).
+3. 📝 **Add or edit entries** adhering strictly to the structured schema:
+   - Provide verified, specific entry pricing (avoid vague terms like "Custom" or "Usage-based").
+   - Explicitly detail free tier limits and trial evaluation windows.
+   - For open-source tools, include the appropriate GitHub social badge.
+4. 🚀 **Commit your changes** with descriptive commit messages (`git commit -m "feat: add platform xyz"`).
+5. 📬 **Submit a Pull Request (PR)** with a summary of the added software and official documentation links.
+
+---
+
+## ⚖️ Disclaimer & License Notes
+
+- 🔍 **Community-curated listing:** This repository is maintained as an objective community reference guide. Mention of commercial products or open-source software does not constitute an endorsement.
+- 🔒 **Regulatory Compliance & Data Privacy:** Enterprise mobile platforms handle sensitive telemetry, employee personal identifiable information (PII), and root-level device capabilities. Ensure full compliance with organizational data policies, GDPR, CCPA, and worker privacy agreements prior to provisioning MDM profiles.
+- 📜 **License Verification:** Always review individual open-source repository licenses (e.g., AGPL-3.0, GPL-3.0, Apache-2.0, BSD-3-Clause, MIT) prior to incorporating tools into commercial enterprise environments.
+
+---
+
+<div align="center">
+
+**Built for enterprise mobility engineers, IT administrators, mobile developers, and DevOps architects.**  
+⭐ *Star this repo if it helped your enterprise mobile architecture!* ⭐
+
+</div>
