@@ -70,7 +70,7 @@ The following table evaluates top commercial enterprise mobility platforms, unif
 
 Open-source enterprise mobility tooling provides sovereign control, on-premises isolation, and cost-effective flexibility across mobile app development, self-hosted backends, and device enrollment.
 
-Below is the curated list of top open-source projects, equipped with social badges linked directly to stargazers, ranked in **descending order by GitHub Stars_Count**.
+Below is the curated list of top open-source projects, equipped with social badges linked directly to stargazers, ranked in **descending order by GitHub_Stars_Count**.
 
 | 📦 Repository & Project | ⭐ GitHub_Stars | ⚖️ License | 🛠️ Core Focus & Description |
 | :--- | :--- | :--- | :--- |
