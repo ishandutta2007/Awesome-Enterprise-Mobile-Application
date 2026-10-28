@@ -70,9 +70,9 @@ The following table evaluates top commercial enterprise mobility platforms, unif
 
 Open-source enterprise mobility tooling provides sovereign control, on-premises isolation, and cost-effective flexibility across mobile app development, self-hosted backends, and device enrollment.
 
-Below is the curated list of top open-source projects, equipped with social badges linked directly to stargazers, ranked in **descending order by GitHub star count**.
+Below is the curated list of top open-source projects, equipped with social badges linked directly to stargazers, ranked in **descending order by GitHub Stars_Count**.
 
-| 📦 Repository & Project | ⭐ GitHub Stars | ⚖️ License | 🛠️ Core Focus & Description |
+| 📦 Repository & Project | ⭐ GitHub_Stars | ⚖️ License | 🛠️ Core Focus & Description |
 | :--- | :--- | :--- | :--- |
 | **[Supabase](https://github.com/supabase/supabase)** | [![Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers) | Apache-2.0 | High-performance open-source Firebase alternative providing auto-generated REST/GraphQL APIs, Postgres database, real-time sync, Auth, and Storage for iOS/Android enterprise applications. |
 | **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Open-source smart spreadsheet and no-code database turning relational databases (Postgres, MySQL) into mobile-friendly business apps with instant REST/GraphQL APIs. |
