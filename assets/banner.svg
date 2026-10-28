@@ -183,7 +183,7 @@
   <!-- Bottom Metric / Tagline bar -->
   <g transform="translate(70, 335)">
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#64748b">
-      SaaS Category Leaders &bull; Open-Source Alternatives &bull; Real-time Market Intelligence &bull; Star Metrics
+      SaaS Category Leaders &#8226; Open-Source Alternatives &#8226; Real-time Market Intelligence &#8226; Star Metrics
     </text>
   </g>
 </svg>
